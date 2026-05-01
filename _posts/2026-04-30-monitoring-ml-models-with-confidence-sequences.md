@@ -98,7 +98,7 @@ is equal to <span class="math">\(1\)</span> when the classifier is correct and <
 \]
 </div>
 
-So, if we feed the sequence <span class="math">\(1\{ f(\mathbf{x}_t)=z_t \}\)</span> into a confidence sequence, the resulting interval estimates the model's true accuracy. A similar idea can be used for the conditional accuracy on the various subgroups; however, it requires a little more care.
+So, if we feed the sequence <span class="math">\(1\lbrace f(\mathbf{x}_t)=z_t \rbrace\)</span> into a confidence sequence, the resulting interval estimates the model's true accuracy. A similar idea can be used for the conditional accuracy on the various subgroups; however, it requires a little more care.
 
 The snippets below focus on the confidence-sequence construction. The full runnable script is available in the [`monitoring-ml-models-with-confidence-sequences` directory]({{ site.github.repository_url }}/tree/main/_posts/monitoring-ml-models-with-confidence-sequences).
 
